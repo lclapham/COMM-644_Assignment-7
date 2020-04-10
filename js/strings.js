@@ -31,8 +31,12 @@ function findFox() {
 
 }
 
-
 //STEP 5
+function lastFox() {
+    let str = "The quick brown fox jumps over the lazy fox"
+    window.alert("The starting lastIndex of fox is " + str.lastIndexOf('fox'));
+
+}
 
 //STEP 6
 
