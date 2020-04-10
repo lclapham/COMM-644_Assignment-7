@@ -18,13 +18,19 @@ function findLetter() {
 
 //STEP 3
 
-function conCatDis(){
+function conCatDis() {
     let fName = window.prompt("Enter your first name.");
     let lName = window.prompt("Enter your last name.");
-    window.alert("Your name is: "+ fName +" "+lName);
+    window.alert("Your name is: " + fName + " " + lName);
 }
 
 //STEP 4
+function findFox() {
+    let str = "The quick brown fox jumps over the lazy dog"
+    window.alert("The starting index of fox is " + str.indexOf('fox'));
+
+}
+
 
 //STEP 5
 
