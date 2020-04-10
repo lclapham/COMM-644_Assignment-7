@@ -43,19 +43,26 @@ function replaceDog() {
     let str = "The quick brown fox jumps over the lazy dog"
     let uName = window.prompt("Please input your name");
     let endSlice = str.lastIndexOf('the')
-    window.alert(str.slice(0, endSlice) +uName);
+    window.alert(str.slice(0, endSlice) + uName);
 
 }
 
 //STEP 7
 function findWord() {
-    let str = "The quick brown fox jumps over the lazy fox"
-    let uWord = window.prompt("Enter a word from the saying. "+str)
-    window.alert(uWord+ " is located at index " +str.search(uWord));
+    let str = "The quick brown fox jumps over the lazy fox";
+    let uWord = window.prompt("Enter a word from the saying. " + str);
+    window.alert(uWord + " is located at index " + str.search(uWord));
 
 }
 
 //STEP 8
+function replaceStrings() {
+    let str = "The quick brown fox jumps over the lazy fox";
+    console.log(str.substr(-12));
+
+
+}
+
 
 //STEP 9
 
