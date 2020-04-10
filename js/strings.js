@@ -67,8 +67,12 @@ function replaceStrings() {
 //STEP 9
 function goLower() {
     let upperStr = "            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG            ";
-    window.alert(upperStr.toLowerCase());
+    window.alert(upperStr.trim().toLowerCase());
 
 }
 
 //STEP 10
+function capFirstLetter(){
+    let str = "the quick brown fox jumps over the lazy fox";
+   window.alert(str.charAt(0).toUpperCase() + str.slice(1));
+}
