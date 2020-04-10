@@ -65,5 +65,10 @@ function replaceStrings() {
 
 
 //STEP 9
+function goLower() {
+    let upperStr = "            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG            ";
+    window.alert(upperStr.toLowerCase());
+
+}
 
 //STEP 10
