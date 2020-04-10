@@ -39,6 +39,14 @@ function lastFox() {
 }
 
 //STEP 6
+function replaceDog() {
+    let str = "The quick brown fox jumps over the lazy dog"
+    let uName = window.prompt("Please input your name");
+    let startSlice = str.lastIndexOf('the')
+    console.log(startSlice);
+    window.alert(str.slice(0, startSlice) +uName);
+
+}
 
 //STEP 7
 
