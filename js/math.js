@@ -10,16 +10,21 @@ function positiveNumber() {
 function roundUP() {
     let floater = window.prompt("Enter a number as a decimal");
     console.log(Math.ceil(floater));
-    
+
 }
 
 //STEP 3
 function roundDown() {
     let floater = window.prompt("Enter a number as a decimal");
     console.log(Math.floor(floater));
-    
+
 }
 
 //STEP 4
+function findLargest() {
+    let numList = window.prompt("Enter five integers seperated by commas. (example 1,2,3,4,5)");
+    console.log(Math.max(...numList.split(',')));
+
+}
 
 //STEP 5
