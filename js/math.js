@@ -28,3 +28,8 @@ function findLargest() {
 }
 
 //STEP 5
+function numSqrt() {
+    let nuSrt = window.prompt("Enter a number you would like to find the Square Root of");
+    console.log(Math.sqrt(nuSrt));
+
+}
