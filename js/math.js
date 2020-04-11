@@ -14,7 +14,7 @@ function roundUP() {
 }
 
 //STEP 3
-function roundUP() {
+function roundDown() {
     let floater = window.prompt("Enter a number as a decimal");
     console.log(Math.floor(floater));
     
