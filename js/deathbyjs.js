@@ -1,6 +1,12 @@
 /*eslint-env browser*/
 
 //STEP 1
+let userStr =  window.prompt("Enter a string", "For Example");
+userStr = userStr.toLowerCase();
+let arr = userStr.split('');
+let sorted = (arr.sort());
+console.log("Step 1")
+console.log(sorted.toString().replace(/,/g,""));
 
 //STEP 2
 
