@@ -63,4 +63,9 @@ let dayArr = ['Sunday','Monday','Tuesday','Wednesday', 'Thursday','Friday', 'Sat
 console.log("Step 4");
 console.log("Yesterday was " + dayArr[convertDate]);
 
+
 //STEP 5
+userDate = window.prompt("Enter a date (January 13, 2021)", d);
+let d2 = new Date(userDate);
+console.log("Step 5");
+console.log(d2.toLocaleString('default', { weekday: 'narrow' }));
