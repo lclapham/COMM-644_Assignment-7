@@ -1,7 +1,7 @@
 /*eslint-env browser*/
 
 //STEP 1
-let userStr =  window.prompt("Enter a string", "For Example");
+let userStr =  window.prompt("Enter a string", "gfedcba");
 userStr = userStr.toLowerCase();
 let arr = userStr.split('');
 let sorted = (arr.sort());
